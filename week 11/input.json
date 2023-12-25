@@ -1,0 +1,68 @@
+{
+    "people": [
+      {
+        "name": "John",
+        "age": 25,
+        "address": {
+          "city": "New York",
+          "zip": "10001"
+        },
+        "hobbies": ["reading", "traveling"]
+      },
+      {
+        "name": "Alice",
+        "age": 30,
+        "address": {
+          "city": "Los Angeles",
+          "zip": "90001"
+        },
+        "hobbies": ["swimming", "painting"]
+      },
+      {
+        "name": "Bob",
+        "age": 22,
+        "address": {
+          "city": "Chicago",
+          "zip": "60601"
+        },
+        "hobbies": ["coding", "gardening"]
+      },
+      {
+        "name": "Eva",
+        "age": 28,
+        "address": {
+          "city": "San Francisco",
+          "zip": "94105"
+        },
+        "hobbies": ["photography", "hiking"]
+      },
+      {
+        "name": "Michael",
+        "age": 35,
+        "address": {
+          "city": "Miami",
+          "zip": "33101"
+        },
+        "hobbies": ["surfing", "cooking"]
+      },
+      {
+        "name": "Sophia",
+        "age": 27,
+        "address": {
+          "city": "Seattle",
+          "zip": "98101"
+        },
+        "hobbies": ["gardening", "reading"]
+      },
+      {
+        "name": "Chris",
+        "age": 32,
+        "address": {
+          "city": "Austin",
+          "zip": "78701"
+        },
+        "hobbies": ["music", "cycling"]
+      }
+    ]
+  }
+  
