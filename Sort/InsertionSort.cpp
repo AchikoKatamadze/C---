@@ -19,7 +19,8 @@ int main() {
     cout << "Enter the number of elements: ";
     cin >> y;
     vector<int> arr(y);
-    for (int i = 0; i < arr.size(); i++) {
+    for (int i = 0; i < arr.size(); i++) 
+    {
         int x;
         cout << "Enter element " << i + 1 << ": ";
         cin >> x;
