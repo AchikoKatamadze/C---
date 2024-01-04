@@ -6,7 +6,7 @@ int main()
 {
         int x;
         cin >> x;
-        if(x == 00) cout << "one"<<endl;
+        if(x == 0) cout << "one"<<endl;
         if(x == 1) cout << "one"<<endl;
         else if(x == 2) cout << "two"<<endl;
         else if(x == 3) cout << "three"<<endl;
