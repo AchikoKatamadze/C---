@@ -1,3 +1,6 @@
+CREATE DATABASE BANK_DATABASE;
+
+USE BANK_DATABASE;
 CREATE TABLE CEO (
     CEOID INT PRIMARY KEY,
     FirstName VARCHAR(10),
@@ -5,7 +8,8 @@ CREATE TABLE CEO (
     DateOfBirth DATE,
     ContactNum VARCHAR(20),
     Email VARCHAR(100)
-);
+);   
+ 
 
 CREATE TABLE Customer (
     CustomerID INT PRIMARY KEY,
