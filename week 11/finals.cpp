@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <cmath>
 using namespace std;
 
 // void fibonacci(int x, int prev, int min, int max){
@@ -18,12 +17,24 @@ using namespace std;
 //   cin >> max;
 //   fibonacci(1,0, min, max);
 // }
+// int main() {
+//   int array[10];
+//   for (int i = 0; i < 10; i++)
+//   {
+//     array[i] = rand()%10000;
+//     cout << array[i] << " ";
+//   }
+// }
 int main() {
-  double x, count = 0;
-  ifstream myfile;
-  myfile.open("file.txt");
+  int x, s = 1;
+  fstream myfile;
+  myfile.open("text.txt", ios::out | ios::trunc);
+  myfile << "1 2 3";
+  myfile.close();
+  myfile.open("text.txt", ios::in);
   while(myfile >> x){
-    if(fmod(x, 1.0) == 0 && x>0) count++;
+    s *= x;
   }
-  cout << "mteli dadebiti ricxvebis raodenoba: " << count;
+  myfile.close();
+  cout << s;
 }

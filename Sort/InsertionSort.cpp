@@ -8,7 +8,7 @@ void InsertionSort(vector<int>& arr, int x) {
         swap(arr[x-1], arr[x-2]);
         InsertionSort(arr, x-1);
     }
-    if(arr.size()>x+1)
+    else if(arr.size()>x+1)
     {
         if(arr[x]>arr[x+1]) swap(arr[x], arr[x+1]);
         InsertionSort(arr, x+1);
